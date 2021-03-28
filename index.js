@@ -58,7 +58,7 @@ app.post("/game", (req, res) => {
     id: 2332,
     title,
     price,
-    year
+    year,
   });
 
   res.sendStatus(200);
